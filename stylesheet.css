@@ -12,11 +12,15 @@
     margin: 0 auto;
 }
 
+.header {
+    padding: 20px;
+}
+
 .header--center {
     text-align: center;
 }
 
-.col-md-12 {
+.col-lg-12 {
     margin: 0 auto;
     text-align: center;
     padding: 20px;
