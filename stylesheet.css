@@ -16,7 +16,7 @@
     animation: all ease 0.2s;
 }
 
-.row_github:hover {
+.row_github .card:hover {
     border: 2px solid green;
 }
 
