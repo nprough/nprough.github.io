@@ -11,13 +11,14 @@
 .row_github .card {
     margin: 0 auto;
     padding: 5px;
-    box-shadow: 5px 5px 15px gray;
+    box-shadow: none;
     border: 2px solid transparent;
     transition: all 0.2s ease;
 }
 
 .row_github .card:hover {
     border: 2px solid #0d6efd;
+    box-shadow: 5px 5px 15px gray;
 }
 
 .header {
