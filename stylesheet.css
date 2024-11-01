@@ -22,6 +22,10 @@
     scale: 1.1;
 }
 
+.card .btn {
+    text-align: center;
+}
+
 .header {
     padding: 20px;
 }
