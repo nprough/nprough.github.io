@@ -13,12 +13,18 @@
     padding: 20px;
 }
 .profile_header {
-    text-align: left;
+    text-align: center;
     margin: 0 auto;
     margin-bottom: 40px;
 }
 
+.profile_header .container {
+    width: 100%;
+    margin: 0 auto;
+}
+
 .width--medium {
+    text-align: left;
     width: 500px;
     max-width: 100%;
 }
