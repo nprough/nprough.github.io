@@ -11,6 +11,7 @@
 .row_github .card {
     margin: 0 auto;
     padding: 5px;
+    min-height: 400px;
 }
 
 .header {
