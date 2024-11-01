@@ -1,3 +1,7 @@
+.text_center {
+    text-align: center;
+}
+
 .profile_picture--circle {
     margin: 0 auto;
     width: 200px;
