@@ -29,7 +29,6 @@ body {
 }
 
 
-
 .row_github .card {
     margin: 0 auto;
     padding: 5px;
@@ -74,16 +73,3 @@ body {
 
 
 
-.profile_header .container {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.width--medium {
-    text-align: left;
-    width: 700px;
-    max-width: 100%;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
