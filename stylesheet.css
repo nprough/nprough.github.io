@@ -18,12 +18,16 @@ body {
     font-size: 3rem;
     font-weight: 200;
 }
+.profile_header {
+
+}
 .profile_picture--circle {
     margin: 0 auto;
     width: 200px;
     height: 200px;
     border-radius: 100%;
 }
+
 
 
 .row_github .card {
@@ -68,11 +72,7 @@ body {
 }
 
 
-.profile_header {
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 40px;
-}
+
 
 .profile_header .container {
     width: 100%;
