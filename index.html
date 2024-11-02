@@ -2,6 +2,9 @@
 <html>
 
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="stylesheet.css">
@@ -9,75 +12,87 @@
 
 </head>
 
-<body>
+<body onload="onload=document.body.style.opacity='1'">
   <div class="row">
-    <div class="col-lg-4">
-      <img class="profile_picture--circle" src="img/profile.jpg" alt="Nicholas Prough Profile Picture">
-      <div class="col-lg-8">
-        <div class="profile_header">
-          <h1>Nicholas Prough</h1>
-          <h2>Full Stack Developer</h2>
-          <div class="container">
-            <p>A Front End Developer with 8+ years of experience in WordPress/WordPress Theme
-              Development, HTML, CSS, SASS, JavaScript, Bootstrap, PHP, & MySQL. Proven track record of creating
-              beautiful
-              websites that are also functionally appealing. Passionate about web design/development, and works hard to
-              create the best product possible for clients and employers. Adept at working with others to fine-tune
-              their
-              designs.</p>
-            <p>
-              <a class="btn btn-primary" href="https://www.linkedin.com/in/nicholas-prough/"><i
-                  class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a>&nbsp;&nbsp;
-              <a class="btn btn-primary" href="https://github.com/nprough"><i class="fa-brands fa-github"
-                  aria-hidden="true"></i> GitHub</a>&nbsp;&nbsp;
-              <a class="btn btn-primary" href="https://codepen.io/nprough"><i class="fa-brands fa-codepen"
-                  aria-hidden="true"></i> CodePen</a>
-            </p>
+    <div class="col-lg-4 profile_img_container">
+      <img class="profile_picture--circle" src="https://nprough.github.io/img/profile.jpg" alt="Nicholas Prough Profile Picture">
+    </div>
+        <div class="col-lg-8">
+          <div class="profile_header">
+            <h1>Nicholas Prough</h1>
+            <h2>Full Stack Developer</h2>
+              <p>A Front End Developer with 8+ years of experience in WordPress/WordPress Theme
+                Development, HTML, CSS, SASS, JavaScript, Bootstrap, PHP, & MySQL. Proven track record of creating
+                beautiful
+                websites that are also functionally appealing. Passionate about web design/development, and works hard to
+                create the best product possible for clients and employers. Adept at working with others to fine-tune
+                their
+                designs.</p>
+            <br>
+              <p>
+                <a class="btn btn-primary" href="https://www.linkedin.com/in/nicholas-prough/"><i
+                    class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a>&nbsp;&nbsp;
+                <a class="btn btn-primary" href="https://github.com/nprough"><i class="fa-brands fa-github"
+                    aria-hidden="true"></i> GitHub</a>&nbsp;&nbsp;
+                <a class="btn btn-primary" href="https://codepen.io/nprough"><i class="fa-brands fa-codepen"
+                    aria-hidden="true"></i> CodePen</a>
+              </p>
           </div>
         </div>
       </div>
     </div>
   </div>
   <div class="row row_skills">
-    <h2 class="header header--center">Skills</h2>
-    <div class="col-lg-3">
-      <ul>
-        <li>User Interface Design</li>
-        <li>HTML</li>
-        <li>CSS (SCSS/SASS)</li>
-        <li>JavaScript</li>
-      </ul>
-    </div>
-    <div class="col-lg-3">
-      <ul>
-        <li>Bootstrap</li>
-        <li>jQuery</li>
-        <li>WordPress</li>
-        <li>WordPress Custom Theme Development</li>
-      </ul>
-    </div>
-    <div class="col-lg-3">
-      <ul>
-        <li>Search Engine Optimization</li>
-        <li>Website Accessibility</li>
-        <li>PHP</li>
-        <li>MySQL</li>
-      </ul>
-    </div>
-    <div class="col-lg-3">
-      <ul>
-        <li>Node.js</li>
-        <li>React.js</li>
-        <li>Python</li>
-        <li>C#</li>
-      </ul>
+    <div class="marquee">
+      <div class="marquee_content">
+        <span class="marquee_content_item--1">
+        User Interface Design&nbsp;/&nbsp;
+        HTML&nbsp;/&nbsp;
+        CSS&nbsp;/&nbsp;
+        SCSS&nbsp;/&nbsp;
+        SASS&nbsp;/&nbsp;
+        JavaScript&nbsp;/&nbsp;
+        Bootstrap&nbsp;/&nbsp;
+        jQuery&nbsp;/&nbsp;
+        WordPress&nbsp;/&nbsp;
+        WordPress Custom Theme Development&nbsp;/&nbsp;
+        Search Engine Optimization&nbsp;/&nbsp;
+        Website Accessibility&nbsp;/&nbsp;
+        PHP&nbsp;/&nbsp;
+        MySQL&nbsp;/&nbsp;
+        Node.js&nbsp;/&nbsp;
+        React.js&nbsp;/&nbsp;
+        Python&nbsp;/&nbsp;
+        C#&nbsp;/&nbsp;
+      </span>
+        <span class="marquee_content_item--2">
+        User Interface Design&nbsp;/&nbsp;
+        HTML&nbsp;/&nbsp;
+        CSS&nbsp;/&nbsp;
+        SCSS&nbsp;/&nbsp;
+        SASS&nbsp;/&nbsp;
+        JavaScript&nbsp;/&nbsp;
+        Bootstrap&nbsp;/&nbsp;
+        jQuery&nbsp;/&nbsp;
+        WordPress&nbsp;/&nbsp;
+        WordPress Custom Theme Development&nbsp;/&nbsp;
+        Search Engine Optimization&nbsp;/&nbsp;
+        Website Accessibility&nbsp;/&nbsp;
+        PHP&nbsp;/&nbsp;
+        MySQL&nbsp;/&nbsp;
+        Node.js&nbsp;/&nbsp;
+        React.js&nbsp;/&nbsp;
+        Python&nbsp;/&nbsp;
+        C#&nbsp;/&nbsp;
+      </span>
     </div>
   </div>
+</div>
   <div class="row row_github">
     <h2 class="header header--center">GitHub Projects</h2>
     <div class="col-lg-3">
       <div class="card" style="width: 18rem;">
-        <img src="img/githubnprough.png" class="card-img-top" alt="GitHub nprough">
+        <img src="https://nprough.github.io/img/githubnprough.png" class="card-img-top" alt="GitHub nprough">
         <div class="card-body">
           <h5 class="card-title">1:1 In The Beginning</h5>
           <p class="card-text">A starter WordPress theme I created without all of the extra fluff. This is a useful
@@ -90,7 +105,7 @@
     </div>
     <div class="col-lg-3">
       <div class="card" style="width: 18rem;">
-        <img src="img/githubnprough.png" class="card-img-top" alt="GitHub nprough">
+        <img src="https://nprough.github.io/img/githubnprough.png" class="card-img-top" alt="GitHub nprough">
         <div class="card-body">
           <h5 class="card-title">ATOM - Your New Favorite Theme</h5>
           <p class="card-text">A theme I made for the ATOM Editor.</p>
@@ -102,7 +117,7 @@
     </div>
     <div class="col-lg-3">
       <div class="card" style="width: 18rem;">
-        <img src="img/githubnprough.png" class="card-img-top" alt="GitHub nprough">
+        <img src="https://nprough.github.io/img/githubnprough.png" class="card-img-top" alt="GitHub nprough">
         <div class="card-body">
           <h5 class="card-title">Insert HTML Template</h5>
           <p class="card-text">This is an insert template I made the Brackets Editor to help me save time when making
@@ -115,7 +130,7 @@
     </div>
     <div class="col-lg-3">
       <div class="card" style="width: 18rem;">
-        <img src="img/githubnprough.png" class="card-img-top" alt="GitHub nprough">
+        <img src="https://nprough.github.io/img/githubnprough.png" class="card-img-top" alt="GitHub nprough">
         <div class="card-body">
           <h5 class="card-title">Brackets - Your New Favorite Theme</h5>
           <p class="card-text">A theme I made for the Brackets Editor.</p>
@@ -127,7 +142,7 @@
     </div>
     <div class="col-lg-3">
       <div class="card" style="width: 18rem;">
-        <img src="img/githubnprough.png" class="card-img-top" alt="GitHub nprough">
+        <img src="https://nprough.github.io/img/githubnprough.png" class="card-img-top" alt="GitHub nprough">
         <div class="card-body">
           <h5 class="card-title">Brackets - Project Archangel</h5>
           <p class="card-text">A theme I made for the Brackets Editor using light colors.</p>
@@ -139,7 +154,7 @@
     </div>
     <div class="col-lg-3">
       <div class="card" style="width: 18rem;">
-        <img src="img/githubnprough.png" class="card-img-top" alt="GitHub nprough">
+        <img src="https://nprough.github.io/img/githubnprough.png" class="card-img-top" alt="GitHub nprough">
         <div class="card-body">
           <h5 class="card-title">Brackets - Project Leviathan</h5>
           <p class="card-text">A theme I made for the Brackets Editor using dark colors.</p>
@@ -151,7 +166,7 @@
     </div>
     <div class="col-lg-3">
       <div class="card" style="width: 18rem;">
-        <img src="img/githubnprough.png" class="card-img-top" alt="GitHub nprough">
+        <img src="https://nprough.github.io/img/githubnprough.png" class="card-img-top" alt="GitHub nprough">
         <div class="card-body">
           <h5 class="card-title">GitHub IO Webpage</h5>
           <p class="card-text">Look at the code I made for this website.</p>
