@@ -26,6 +26,12 @@
     scale: 1.1;
 }
 
+.row_skills ul li {
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+}
+
 .card .btn {
     text-align: center;
 }
