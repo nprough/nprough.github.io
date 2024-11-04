@@ -1,145 +1,209 @@
 * {
-    font-family: "Righteous", sans-serif;
-  }
-  body {
-      background-color: #1a1a1a !important;
-    opacity: 0;
-    transition: opacity 1s;
-  }
-  
-  .text_center {
-      text-align: center;
-  }
-  .row {
-      margin: 0 auto;
-  }
-  
-  .profile_header {
-    padding: 10px;
-  }
-  .profile_img_container {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  }
-  .profile_picture--circle {
-      margin: 0 auto;
-      width: 300px;
-      height: 300px;
-      border-radius: 100%;
-  }
-  .profile_header h1 {
-      font-size: 8rem;
-      font-weight: bold;
-      background: -webkit-linear-gradient(#eee, #333);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .profile_header h2 {
-      color: #eee;
-      margin-top: -10px;
-      font-size: 3rem;
-      font-weight: 200;
-  }
-  .profile_header p {
-      color: #eee;
-  }
-  
-  .card .btn {
-      text-align: center;
-  }
-  
-  .header {
-    color: #eee;
-      padding: 20px;
-  }
-  
-  .header--center {
-      text-align: center;
-  }
-  
-  .col-lg-12 {
-      margin: 0 auto;
-      text-align: center;
-      padding: 20px;
-  }
-  .col-lg-3 {
-      padding: 20px;
-  }
-  
-  .row_skills {
-    padding: 30px;
-  }
-  .row_skills .header {
-    color: black;
-  }
-  
-  .marquee {
-    width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-    white-space: nowrap;
-    margin-top: 17px;
-  }
-  .marquee_content {
-    display: inline-block;
-    margin-top: 5px;
-    animation: marquee 60s linear infinite;
-    font-size: 5rem;
-  }
-  .marquee_content_item--1 {
-    font-weight: bold;
-      background: -webkit-linear-gradient(#eee, #0d6efd);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    position: relative;
+  font-family: "Righteous", sans-serif;
+}
+
+body {
+  background-color: #1a1a1a !important;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.row {
+  margin: 0 auto;
+}
+
+.profile_header {
+  padding: 10px;
+  -webkit-animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.profile_img_container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+  animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+}
+
+.profile_picture--circle {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.profile_header h1 {
+  font-size: 8rem;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.profile_header h2 {
+  color: #eee;
+  margin-top: -10px;
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.profile_header p {
+  color: #eee;
+}
+
+.card .btn {
+  text-align: center;
+}
+
+.header {
+  color: #eee;
+  padding: 20px;
+
+}
+
+.header--center {
+  text-align: center;
+}
+
+.col-lg-12 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.col-lg-3 {
+  padding: 20px;
+}
+
+.row_skills {
+  padding: 30px;
+  -webkit-animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+  animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+}
+
+.row_skills .header {
+  color: black;
+}
+
+.marquee {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: 17px;
+}
+
+.marquee_content {
+  display: inline-block;
+  margin-top: 5px;
+  animation: marquee 60s linear infinite;
+  font-size: 5rem;
+}
+
+.marquee_content_item--1 {
+  font-weight: bold;
+  background: -webkit-linear-gradient(#eee, #0d6efd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  left: 0%;
+  animation: swap 60s linear infinite;
+}
+
+.marquee_content_item--2 {
+  font-weight: bold;
+  background: -webkit-linear-gradient(#eee, #0d6efd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes swap {
+
+  0%,
+  50% {
     left: 0%;
-    animation: swap 60s linear infinite;
   }
-  .marquee_content_item--2 {
-    font-weight: bold;
-      background: -webkit-linear-gradient(#eee, #0d6efd);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
+  50.00000001%,
+  100% {
+    left: 100%;
   }
-  @keyframes swap {
-    0%, 50% {
-      left: 0%;
-    }
-    50.00000001%,
-    100% {
-      left: 100%;
-    }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0)
   }
-  .marquee-content:hover {
-    animation-play-state: paused
+
+  100% {
+    transform: translateX(-100%)
   }
-  @keyframes marquee {
-    0% {
-      transform: translateX(0)
-    }
-    100% {
-      transform: translateX(-100%)
-    }
+}
+
+.row_github {
+  padding: 30px;
+  max-width: 100%;
+  -webkit-animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s both;
+  animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s both;
+}
+
+.row_github .card {
+  margin: 0 auto;
+  padding: 5px;
+  border: 2px solid transparent;
+  transition: scale 0.2s ease;
+  min-height: 400px;
+  -webkit-animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
+  animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
+}
+
+.row_github .card:hover {
+  border: 2px solid #0d6efd;
+  scale: 1.1;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2024-11-2 16:43:38
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-in-top
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+    opacity: 0;
   }
-  
-  .row_github .card {
-      margin: 0 auto;
-      padding: 5px;
-      border: 2px solid transparent;
-      transition: all 0.2s ease;
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
   }
-  
-  .row_github .card:hover {
-      border: 2px solid #0d6efd;
-      scale: 1.1;
+}
+
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+    opacity: 0;
   }
-  
-  
-  
-  
-  
-  
-  
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
