@@ -2,6 +2,10 @@
   font-family: "Righteous", sans-serif;
 }
 
+p {
+  font-size: 1.4rem;
+}
+
 body {
   background-color: #1a1a1a !important;
   max-width: 100%;
@@ -18,8 +22,8 @@ body {
 
 .profile_header {
   padding: 10px;
-  -webkit-animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: slide-in-top 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-top 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .profile_img_container {
@@ -27,8 +31,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  -webkit-animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
-  animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+  -webkit-animation: slide-in-top 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s
+    both;
+  animation: slide-in-top 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
 }
 
 .profile_picture--circle {
@@ -49,8 +54,11 @@ body {
 .profile_header h2 {
   color: #eee;
   margin-top: -10px;
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: 200;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .profile_header p {
@@ -58,38 +66,74 @@ body {
 }
 
 .row_github .card {
+  /*   background-color: #1a1a1a; */
+  /*   color: white; */
+  transition: all 0.2s ease !important;
   background-color: #1a1a1a;
-  color: white;
-  transition: all .2s ease !important;
+}
+
+.row_github {
+  padding: 50px !important;
+}
+
+.row_github [class^="col"] {
+  padding: 10px;
+}
+
+.row_github .card-title {
+  text-align: center;
+  padding: 10px 10px 20px 10px;
+  font-size: 2rem;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .row_github .card i {
-  font-size: 60px;
+  font-size: 90px;
+  padding: 20px;
   text-align: center;
-  padding: 10px;
   color: #0d6efd;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.row_github .card .btn {
+.row_github p {
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn {
   text-align: center;
+  font-size: 1.4rem !important;
+  background: -webkit-linear-gradient(#eee, #0d6efd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn:hover {
+  background: #0d6efd;
+  -webkit-background-clip: none;
+  -webkit-text-fill-color: white;
 }
 
 .row_github .card:hover {
   border: 2px solid #0d6efd;
-  scale: 1.1;
-  background: -webkit-linear-gradient(#eee, #333);
-  color: black;
+  scale: 1.05;
 }
 
 .row_github .card-footer {
   border: none;
 }
 
-
 .header {
   color: #eee;
   padding: 20px;
-
+  font-size: 6rem;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .header--center {
@@ -102,14 +146,11 @@ body {
   padding: 20px;
 }
 
-.col-lg-3 {
-  padding: 20px;
-}
-
 .row_skills {
   padding: 30px;
-  -webkit-animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
-  animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+  -webkit-animation: slide-in-top 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s
+    both;
+  animation: slide-in-top 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s both;
 }
 
 .row_skills .header {
@@ -149,7 +190,6 @@ body {
 }
 
 @keyframes swap {
-
   0%,
   50% {
     left: 0%;
@@ -163,19 +203,20 @@ body {
 
 @keyframes marquee {
   0% {
-    transform: translateX(0)
+    transform: translateX(0);
   }
 
   100% {
-    transform: translateX(-100%)
+    transform: translateX(-100%);
   }
 }
 
 .row_github {
   padding: 30px;
   max-width: 100%;
-  -webkit-animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s both;
-  animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s both;
+  -webkit-animation: slide-in-top 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s
+    both;
+  animation: slide-in-top 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s both;
 }
 
 .row_github .card {
@@ -184,10 +225,10 @@ body {
   border: 2px solid transparent;
   transition: scale 0.2s ease;
   min-height: 400px;
-  -webkit-animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
-  animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
+  -webkit-animation: slide-in-top 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s
+    both;
+  animation: slide-in-top 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
 }
-
 
 @-webkit-keyframes slide-in-top {
   0% {
