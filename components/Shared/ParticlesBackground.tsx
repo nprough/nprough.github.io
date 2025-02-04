@@ -1,7 +1,6 @@
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { useEffect, useMemo, useState } from "react";
 import { loadSlim } from "@tsparticles/slim";
-import { Container } from "tsparticles";
 
 const HeroParticles = () => {
   const [init, setInit] = useState(false);
@@ -20,7 +19,7 @@ const HeroParticles = () => {
       setInit(true);
     });
   }, []);
-  const particlesLoaded = async (container?: Container | undefined) => {
+  const particlesLoaded = async (container) => {
     // console.log(container);
   };
   const options = useMemo(

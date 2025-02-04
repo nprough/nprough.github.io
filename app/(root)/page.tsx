@@ -9,7 +9,7 @@ export default function Home() {
   });
 
   // Listen for the scroll event and log the event data
-  // lenis.on("scroll", (e) => {});
+  lenis.on("scroll", (e) => {});
 
   return (
     <>
