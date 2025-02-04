@@ -19,7 +19,7 @@ const HeroParticles = () => {
       setInit(true);
     });
   }, []);
-  const particlesLoaded = async (container) => {
+  const particlesLoaded = async () => {
     // console.log(container);
   };
   const options = useMemo(

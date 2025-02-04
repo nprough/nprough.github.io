@@ -9,10 +9,10 @@ const AboutSection = () => {
     >
       <div className="container mx-auto px-4 py-16">
         <h2 className="text-6xl font-bold text-center mb-8">
-          Hi, I'm <span className="primary-text">Nick.</span>
+          Hi, I{`&apos;`}m <span className="primary-text">Nick.</span>
         </h2>
         <h3 className="text-4xl font-bold text-center mb-8">
-          I'm a{" "}
+          I{`&apos;`}m a{" "}
           <TypeAnimation
             className="primary-text font-bold py-7"
             sequence={[
