@@ -1,7 +1,6 @@
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { useEffect, useMemo, useState } from "react";
 import { loadSlim } from "@tsparticles/slim";
-import { ISourceOptions } from "tsparticles-engine"; // importing the ISourceOptions type
 
 const HeroParticles = () => {
   const [, setInit] = useState(false);
