@@ -88,7 +88,7 @@ const HeroParticles = () => {
           value: { min: 1, max: 5 },
         },
       },
-      fullScreen: { enable: true, zIndex: -1 },
+      fullScreen: { zIndex: -1 },
     }),
     []
   );
