@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 import { loadSlim } from "@tsparticles/slim";
 
 const HeroParticles = () => {
-  const [, setInit] = useState(false);
+  const [init, setInit] = useState(false);
 
   // this should be run only once per application lifetime
   useEffect(() => {
