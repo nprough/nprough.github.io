@@ -1,15 +1,13 @@
 {
   "name": "next-portfolio",
   "version": "0.1.0",
-  "homepage": "nprough.github.io",
+  "homepage": "https://nprough.github.io",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@tsparticles/react": "^3.0.0",
