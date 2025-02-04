@@ -15,10 +15,9 @@ export default function Home() {
   }, []);
 
   return (
-    <>
+    <main className="overflow-x-hidden">
       <HeroSection />
       <AboutSection />
-      <section className="h-screen">test</section>
-    </>
+    </main>
   );
 }

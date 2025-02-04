@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
 import ParticlesBackground from "./ParticlesBackground";
 import { motion } from "framer-motion";
+import { ENTRANCE_VARIANTS } from "@/constants/Variants";
 
 const HeroSection = () => {
   return (
@@ -9,7 +10,10 @@ const HeroSection = () => {
       <div className="h-screen w-full flex flex-col justify-center items-center">
         <Navbar />
         <motion.div
-          animate={{ y: -5 }}
+          initial="hidden"
+          animate={{ y: -5, scale: 1.01 }}
+          whileInView="visible"
+          variants={ENTRANCE_VARIANTS}
           transition={{
             repeat: Infinity,
             repeatType: "mirror",
