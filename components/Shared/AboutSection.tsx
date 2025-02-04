@@ -12,7 +12,7 @@ const AboutSection = () => {
         <h2 className="text-6xl font-bold text-center mb-8">
           Hi, I&apos;m <span className="primary-text">Nick.</span>
         </h2>
-        <h3 className="text-4xl font-bold text-center mb-8">
+        <h3 className="text-2xl lg:text-4xl font-bold text-center mb-8">
           I&apos;m a{" "}
           <TypeAnimation
             className="primary-text font-bold py-7"
@@ -35,7 +35,7 @@ const AboutSection = () => {
             style={{ fontSize: "inherit", display: "inline-block" }}
           />
         </h3>
-        <p className="text-xl px-16">
+        <p className="text-xl px-4 lg:px-16">
           Nicholas Prough is a skilled software engineer with a specialization
           in Front-End development. His most recent project, a website for the
           Mifflin County School District, boasts over 2.9 million page views in
@@ -44,8 +44,8 @@ const AboutSection = () => {
           that enhance the overall user experience.
         </p>
       </div>
-      <div className="flex flex-col md:flex-row justify-center items-center p-16">
-        <div className="w-1/2 lg:w-full">
+      <div className="flex flex-col md:flex-row justify-center items-center p-4 lg:p-16">
+        <div className="w-3/4 lg:w-full">
           <motion.img
             src="/profile.jpg"
             alt="About"
