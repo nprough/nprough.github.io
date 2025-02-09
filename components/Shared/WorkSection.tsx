@@ -12,14 +12,14 @@ const WorkSection = () => {
           <motion.div
             key={work.title}
             variants={ENTRANCE_VARIANTS}
-            className={`justify-center items-center p-16 m-16 flex flex-col lg:flex-row text-white sticky bg-black border-2 border-orange-500`}
-            style={{ top: `calc(5% + ${work.id * 25}px)` }}
+            className={`justify-center items-center p-4 lg:p-16 m-4 lg:m-16 flex flex-col lg:flex-row text-white sticky bg-black border-2 border-orange-500`}
+            style={{ top: `calc(5% + ${work.id * 15}px)` }}
           >
             <motion.img
               initial={"hiddenLeft"}
               whileInView={"visible"}
               variants={ENTRANCE_VARIANTS}
-              className="h-[500px] w-[400px]"
+              className="h-[300px] w-[200px] lg:h-[500px] lg:w-[400px]"
               src={work.image}
               alt={work.title}
             />
@@ -29,7 +29,7 @@ const WorkSection = () => {
               className="flex flex-col gap-4 text-center lg:text-left lg:ml-16 my-8"
               variants={ENTRANCE_VARIANTS}
             >
-              <h3 className="text-5xl font-bold">{work.title}</h3>
+              <h3 className="text-xl lg:text-5xl font-bold">{work.title}</h3>
 
               <p className="">{work.description}</p>
               <LinkButton

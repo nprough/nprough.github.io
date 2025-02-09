@@ -4,7 +4,7 @@ export const WORKS = [
     title: "Orbisonia United Methodist Church",
     description:
       "I created a website for Orbisonia United Methodist Church. The website is a simple, clean, and easy to use website that is designed to be used on any device.  I created it using SquareSpace for ease of use for the church staff.  Their website is subject to change as they update their content.",
-    image: "/orby.png",
+    image: "/orbyumc.png",
     link: "https://www.orbyumc.com/",
   },
   {
