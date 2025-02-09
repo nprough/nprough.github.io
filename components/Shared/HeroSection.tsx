@@ -5,7 +5,7 @@ import { ENTRANCE_VARIANTS } from "@/constants/Variants";
 
 const HeroSection = () => {
   return (
-    <section>
+    <section className="mb-16 overflow-x-hidden">
       <ParticlesBackground />
       <div className="h-screen w-full flex flex-col justify-center items-center">
         <Navbar />

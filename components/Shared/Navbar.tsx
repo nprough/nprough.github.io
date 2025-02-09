@@ -39,16 +39,6 @@ const Navbar = () => {
             initial={"initial"}
             whileHover={"hover"}
             variants={hoverVariants}
-            href="#skills"
-          >
-            Skills
-          </MotionLink>
-        </li>
-        <li>
-          <MotionLink
-            initial={"initial"}
-            whileHover={"hover"}
-            variants={hoverVariants}
             href="#work"
           >
             Work

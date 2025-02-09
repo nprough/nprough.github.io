@@ -60,18 +60,16 @@ const AboutSection = () => {
           that enhance the overall user experience.
         </motion.p>
       </motion.div>
-      <motion.div
-        initial="hiddenRight"
-        whileInView="visible"
-        variants={ENTRANCE_VARIANTS}
-        className="flex flex-col md:flex-row justify-center items-center p-4 lg:p-16 order-1 lg:order-2"
-      >
+      <div className="flex flex-col md:flex-row justify-center items-center p-4 lg:p-16 order-1 lg:order-2  overflow-x-hidden">
         <div className="w-3/4 lg:w-full">
           <motion.img
             src="/profile.jpg"
             alt="About"
             className="w-full h-auto rounded-full border-2 border-orange-500 "
             animate={{ y: -5 }}
+            initial="hiddenRight"
+            whileInView="visible"
+            variants={ENTRANCE_VARIANTS}
             transition={{
               repeat: Infinity,
               repeatType: "mirror",
@@ -80,7 +78,7 @@ const AboutSection = () => {
             }}
           />
         </div>
-      </motion.div>
+      </div>
     </section>
   );
 };
