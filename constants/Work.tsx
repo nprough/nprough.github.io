@@ -9,12 +9,12 @@ export const WORKS = [
   },
   {
     id: 2,
-    title: "Work 2",
+    title: "Woody's Beef Jerky",
     description:
-      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet",
+      "This website was created for Woody's Beef Jerky.  Because of this website, Woody's Beef Jerky has been able to expand their reach and sell their jerky all across the United States.  I created this website using SquareSpace for ease of use for the business owner.  The website is subject to change as they update their content.",
 
-    image: "https://via.placeholder.com/150",
-    link: "https://www.google.com",
+    image: "/woodysbeefjerky.png",
+    link: "https://www.woodysbeefjerky.com/",
   },
   {
     id: 3,

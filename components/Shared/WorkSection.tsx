@@ -6,7 +6,10 @@ import Link from "next/link";
 const WorkSection = () => {
   const LinkButton = motion(Button);
   return (
-    <section className="mt-[200px]">
+    <section className="mt-[300px]">
+      <h2 className="text-center text-5xl font-bold text-white">
+        Recent <span className="text-orange-500">Work</span>
+      </h2>
       <div className="sticky top-0 transform-origin-top">
         {WORKS.map((work) => (
           <motion.div
@@ -19,7 +22,7 @@ const WorkSection = () => {
               initial={"hiddenLeft"}
               whileInView={"visible"}
               variants={ENTRANCE_VARIANTS}
-              className="h-[300px] w-[200px] lg:h-[500px] lg:w-[400px]"
+              className="h-[300px] w-[300px] lg:h-[500px] lg:w-[400px]"
               src={work.image}
               alt={work.title}
             />
