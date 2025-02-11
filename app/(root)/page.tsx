@@ -5,6 +5,7 @@ import SkillsSection from "@/components/Shared/SkillsSection";
 import Lenis from "lenis";
 import { useEffect } from "react";
 import WorkSection from "@/components/Shared/WorkSection";
+import BusinessSection from "@/components/Shared/BusinessSection";
 
 export default function Home() {
   useEffect(() => {
@@ -22,6 +23,7 @@ export default function Home() {
       <AboutSection />
       <SkillsSection />
       <WorkSection />
+      <BusinessSection />
     </main>
   );
 }

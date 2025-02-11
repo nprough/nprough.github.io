@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex bg-transparent">
-      <ul className="flex gap-4 lg:gap-10 justify-center items-center w-full h-[100px] text-white">
+      <ul className="flex flex-row gap-4 lg:gap-10 justify-center items-center w-full h-[100px] text-white">
         <li>
           <MotionLink
             initial={"initial"}
@@ -52,6 +52,16 @@ const Navbar = () => {
             href="#business"
           >
             Business
+          </MotionLink>
+        </li>
+        <li>
+          <MotionLink
+            initial={"initial"}
+            whileHover={"hover"}
+            variants={hoverVariants}
+            href="#testimonials"
+          >
+            Testimonials
           </MotionLink>
         </li>
         <li>

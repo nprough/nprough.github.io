@@ -6,7 +6,10 @@ import Link from "next/link";
 const WorkSection = () => {
   const LinkButton = motion(Button);
   return (
-    <section className="mt-[300px] overflow-x-hidden lg:overflow-visible">
+    <section
+      id="work"
+      className="mt-[300px] overflow-x-hidden lg:overflow-visible"
+    >
       <h2 className="text-center text-5xl font-bold text-white">
         Recent <span className="text-orange-500">Work</span>
       </h2>
@@ -22,7 +25,7 @@ const WorkSection = () => {
               initial={"hiddenLeft"}
               whileInView={"visible"}
               variants={ENTRANCE_VARIANTS}
-              className="h-[300px] w-[300px] lg:h-[500px] lg:w-[400px]"
+              className="h-[300px] w-[300px] lg:h-[400px] lg:w-[400px]"
               src={work.image}
               alt={work.title}
             />
