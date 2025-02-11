@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 
 const SkillsSection = () => {
   const containerStyles =
-    "w-auto lg:w-1/4 text-center list-none border-x-2 border-x-orange-500 p-4 content-center mx-4 my-16 font-bold overflow-x-hidden";
+    "w-auto lg:w-1/4 text-center list-none border-x-2 border-x-orange-500 p-4 content-center mx-4 my-16 font-bold";
   const headerStyles = "text-2xl font-bold mb-4 text-orange-500";
   const listStyles = "flex flex-col gap-4";
 
   return (
-    <section>
+    <section className="overflow-x-hidden">
       <motion.div
         initial={"hiddenUp"}
         whileInView={"visible"}

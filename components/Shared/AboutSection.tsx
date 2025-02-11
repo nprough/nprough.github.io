@@ -7,7 +7,7 @@ const AboutSection = () => {
   return (
     <section
       id="about"
-      className="flex flex-col lg:flex-row justify-center items-center  text-white"
+      className="flex flex-col lg:flex-row justify-center items-center text-white overflow-x-hidden"
     >
       <motion.div
         initial="hiddenLeft"

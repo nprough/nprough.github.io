@@ -22,7 +22,6 @@ export default function Home() {
       <AboutSection />
       <SkillsSection />
       <WorkSection />
-      <div className="h-[2000px]"></div>
     </main>
   );
 }
