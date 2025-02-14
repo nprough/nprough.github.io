@@ -6,6 +6,8 @@ import Lenis from "lenis";
 import { useEffect } from "react";
 import WorkSection from "@/components/Shared/WorkSection";
 import BusinessSection from "@/components/Shared/BusinessSection";
+import TestimonialSection from "@/components/Shared/TestimonialSection";
+import ContactSection from "@/components/Shared/ContactSection";
 
 export default function Home() {
   useEffect(() => {
@@ -24,6 +26,8 @@ export default function Home() {
       <SkillsSection />
       <WorkSection />
       <BusinessSection />
+      <TestimonialSection />
+      <ContactSection />
     </main>
   );
 }

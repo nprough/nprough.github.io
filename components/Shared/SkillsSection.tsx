@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const SkillsSection = () => {
   const containerStyles =
-    "w-auto lg:w-1/4 text-center list-none border-2 border-orange-500 p-4 content-center mx-4 my-4 font-bold";
+    "w-auto lg:w-1/4 text-center list-none border-x-2 border-x-orange-500 p-4 content-center mx-4 my-4 font-bold";
   const headerStyles = "text-3xl font-bold mb-4 text-orange-500";
   const listStyles = "flex flex-col gap-4";
 
