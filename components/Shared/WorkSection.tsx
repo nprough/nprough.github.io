@@ -25,7 +25,7 @@ const WorkSection = () => {
               initial={"hiddenLeft"}
               whileInView={"visible"}
               variants={ENTRANCE_VARIANTS}
-              className="h-[300px] w-[300px] lg:h-[400px] lg:w-[400px]"
+              className="h-[300px] w-[300px] lg:h-[400px] lg:w-[300px]"
               src={work.image}
               alt={work.title}
             />
@@ -35,7 +35,7 @@ const WorkSection = () => {
               className="flex flex-col gap-4 text-center lg:text-left lg:ml-16 my-8"
               variants={ENTRANCE_VARIANTS}
             >
-              <h3 className="text-xl lg:text-5xl font-bold">{work.title}</h3>
+              <h3 className="text-3xl lg:text-5xl font-bold">{work.title}</h3>
 
               <p className="">{work.description}</p>
               <LinkButton

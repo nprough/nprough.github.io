@@ -28,7 +28,7 @@ export default function BusinessSection() {
         />
       </motion.div>
       <div className="w-full lg:w-1/2 flex flex-col justify-center items-center gap-8">
-        <h2 className="text-white text-4xl font-bold flex items-center">
+        <h2 className="text-white text-4xl font-bold text-center mt-8 lg:mt-0">
           <span className="text-orange-500">Pro</span>ugh Web
           <span className="text-orange-500">&nbsp;Design</span>, LLC
         </h2>
