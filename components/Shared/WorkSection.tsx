@@ -13,13 +13,13 @@ const WorkSection = () => {
       <h2 className="text-center text-5xl font-bold text-white">
         Recent <span className="text-orange-500">Work</span>
       </h2>
-      <div className="lg:sticky top-0 lg:transform-origin-top">
+      <div className="lg:sticky top-0 lg:transform-origin-top mx-0 lg:mx-[10%]">
         {WORKS.map((work) => (
           <motion.div
             key={work.title}
             variants={ENTRANCE_VARIANTS}
             className={`justify-center items-center p-4 lg:p-16 m-4 lg:m-16 flex flex-col lg:flex-row text-white lg:sticky bg-black border-2 border-orange-500`}
-            style={{ top: `calc(5% + ${work.id * 15}px)` }}
+            style={{ top: `calc(20% + ${work.id * 15}px)` }}
           >
             <motion.img
               initial={"hiddenLeft"}
