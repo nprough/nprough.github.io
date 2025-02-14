@@ -30,11 +30,13 @@ const AboutSection = () => {
           <TypeAnimation
             className="primary-text font-bold py-7"
             sequence={[
-              "Software Engineer.", // Types 'One'
-              1000, // Waits 1s
-              "React Developer.", // Deletes 'One' and types 'Two'
-              1000, // Waits 2s
-              "Full-Stack Developer.", // Types 'Three' without deleting 'Two'
+              "Software Engineer.",
+              1000,
+              "React Developer.",
+              1000,
+              "Next.js Developer.",
+              1000,
+              "Full-Stack Developer.",
               1000,
               "Web Designer.",
               1000,
