@@ -46,7 +46,7 @@ export default function TestimonialSection() {
             <span className={quotationStyles}>&#34;</span>I worked with Nick
             Prough from Prough Web Design, LLC to get [the] Woody&apos;s Beef
             Jerky website created. He was great to work with and did an
-            incredible created.
+            incredible job.
             <span className={quotationStyles}>&#34;</span>
           </p>
           <p className={authorStyles}>
