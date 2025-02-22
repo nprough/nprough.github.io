@@ -26,10 +26,9 @@ export default function TestimonialSection() {
             he made our vision come to life! He was so easy to work with,
             answering all the questions we had and making all the small and
             large changes we requested in a timely manner. In a matter of a few
-            weeks we went from no website to of a few weeks we went from no
-            website to a fully functional and user friendly website. We
-            appreciate all that Nick has done for us and will continue to
-            recommend him.
+            weeks we went from no website to a fully functional and user
+            friendly website. We appreciate all that Nick has done for us and
+            will continue to recommend him.
             <span className={quotationStyles}>&#34;</span>
           </p>
           <p className={authorStyles}>
