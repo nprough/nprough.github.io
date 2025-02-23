@@ -44,7 +44,7 @@ const WorkSection = () => {
                 asChild
                 className="bg-orange-500 text-black hover:bg-orange-600 text-lg p-5 w-fit m-auto lg:ml-0"
               >
-                <Link href={work.link}>View Project</Link>
+                <Link href={work.link}>{work.button}</Link>
               </LinkButton>
             </motion.div>
           </motion.div>
