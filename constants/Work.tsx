@@ -5,7 +5,7 @@ export const WORKS = [
     description:
       "This website was created for the Horrorween Haunted Warehouse.  The website is a spooky, simple, and easy to use website that is designed to be used on any device.  I created it using SquareSpace for ease of use for their staff.  Their website is subject to change as they update their content.",
     image: "/horrorween.png",
-    link: "https://www.horrorweenwh.com/",
+    link: "https://www.horrorweenhw.com/",
     button: "View Project",
   },
   {
