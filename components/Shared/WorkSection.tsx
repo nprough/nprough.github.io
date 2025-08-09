@@ -18,8 +18,8 @@ const WorkSection = () => {
           <motion.div
             key={work.title}
             variants={ENTRANCE_VARIANTS}
-            className={`justify-center items-center p-4 lg:p-16 m-4 lg:m-16 flex flex-col lg:flex-row text-white lg:sticky bg-black border-2 border-orange-500`}
-            style={{ top: `calc(20% + ${work.id * 15}px)` }}
+            className={`justify-center items-center p-4 lg:p-16 m-4 lg:m-16 flex flex-col lg:flex-row text-white lg:sticky bg-black border-2 border-orange-500 h-[700px]`}
+            style={{ top: `calc(20% + ${work.id * 25}px)` }}
           >
             <motion.img
               initial={"hiddenLeft"}
